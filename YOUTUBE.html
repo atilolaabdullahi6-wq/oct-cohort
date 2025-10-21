@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Top Bar Clone</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+
+    /* Top Bar */
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ddd;
+      background-color: #fff;
+    }
+
+    /* Left (Logo + Menu) */
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .menu {
+      font-size: 22px;
+      cursor: pointer;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+      color: red;
+    }
+
+    /* Center (Search bar) */
+    .search-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-right: none;
+      border-radius: 20px 0 0 20px;
+      outline: none;
+    }
+
+    .search-box button {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-left: none;
+      border-radius: 0 20px 20px 0;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
+
+    /* Right (Icons + Profile) */
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .right button, .profile {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .profile {
+      background-color: #1976d2;
+      color: white;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Filter Buttons */
+    .filters {
+      display: flex;
+      gap: 10px;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ddd;
+      background-color: white;
+      overflow-x: auto;
+    }
+
+    .filters button {
+      background-color: #f0f0f0;
+      border: none;
+      border-radius: 8px;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+
+    .filters button.active {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="left">
+      <div class="menu">☰</div>
+      <div class="logo">YouTube <small style="color:black;">NG</small></div>
+    </div>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search">
+    </div>
+
+    <div class="right">
+      <button>🎤</button>
+      <button class="fa-solid fa-bell">Create</button>
+      <button class="fa-solid fa-bell"></button>
+      <div class="profile">A</div>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters">
+    <button class="active">All</button>
+    <button>Shorts</button>
+    <button>Videos</button>
+    <button>Unwatched</button>
+    <button>Watched</button>
+    <button>Recently uploaded</button>
+    <button>Live</button>
+    <button>Bovi</button>
+    <button>Stand up comedy nigeria</button>
+    <button>Aproko</button>
+  </div>
+
+</body>
+</html>
