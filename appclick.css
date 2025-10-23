@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+.section-part{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-img {
+    width: 150px;
+    height: 80px;
+    margin-top: 40%;
+    margin-left: 51%;
+}
+.username-p {
+    margin-top: 5%;
+    height: 45px;
+    border: 1px solid #dfdfdf;
+    background: transparent;
+    padding-left: 1rem;
+    margin-left: 25%;
+    padding-right: 70%;
+    font-family: roboto, sans-serif;
+    position: relative;
+    border-radius: 4%;
+} 
+.username-p:focus {
+border-color: #35AA47;
+outline: none;
+}
+.password-p {
+     margin-top: 5%;
+    height: 45px;
+    border: 1px solid #dfdfdf;
+    background: transparent;
+    padding-left: 1rem;
+    margin-left: 25%;
+    padding-right: 70%;
+    font-family: roboto, sans-serif;
+    position: relative;
+    border-radius: 4%;
+}
+.password-p:focus{
+    border-color: #35AA47;
+outline: none;
+}
+.ul {
+    color: #444;
+    margin-top: 5%;
+    margin-left: 30%;
+    font-weight: 300;
+    font-family: roboto, sans-serif;
+
+}
+.sign-p {
+    background-color: #35AA47;
+    height: 45px;
+    border: 1px solid #35AA47;
+    width: 145%;
+    margin-left: 25%;
+    color: #ffffff;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.sign-p:hover {
+    background-color: #444;
+    border: 1px solid #444;
+}
+.f-p{
+    font-family: roboto, sans-serif;
+    font-size: 70%;
+    font-weight: 600;
+    cursor: pointer;
+    color: #444;
+    text-decoration: none;
+    margin-left: 25%;
+}
+.f-p:hover{
+    text-decoration: underline;
+
+}
+.profile-img {
+    width: 820px;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 0% 1% 1% 0%;
+    margin-left: %;
+}
