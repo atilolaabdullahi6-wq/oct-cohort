@@ -56,12 +56,16 @@ outline: none;
 .sign-p {
     background-color: #35AA47;
     height: 45px;
+    padding-left: 6rem;
+    padding-right: 6rem;
     border: 1px solid #35AA47;
     width: 145%;
     margin-left: 25%;
     color: #ffffff;
     margin-top: 5%;
     cursor: pointer;
+    border-radius: 4px;
+    border-width: 1px;
 }
 .sign-p:hover {
     background-color: #444;
@@ -86,4 +90,9 @@ outline: none;
     object-fit: cover;
     border-radius: 0% 1% 1% 0%;
     margin-left: 0%;
+}
+@media (max-width: 600px) {
+
+    
+    
 }
