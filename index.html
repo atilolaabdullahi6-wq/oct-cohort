@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = 5;
+if (num > 0) {
+console.log("positive");
+} else if (num < 0) {
+console.log("negative");
+} else {
+console.log("zero");
+}
+
+let age = 25;
+if (age < 18) {
+console.log("You are a minor.");
+} else if (age >= 18 && age <= 59) {
+console.log("You are an adult.");
+} else {
+console.log("You are a senior citizen.");
+}
+
+let number = 10;
+if (number % 2 === 0) {
+console.log("even");
+} else {
+console.log("odd");
+}
+
+let score = 85;
+if (score >= 90 && score <= 100) {
+console.log("A");
+} else if (score >= 80 && score <= 89) {
+console.log("B");
+} else if (score >= 70 && score <= 79) {
+console.log("C");
+} else if (score >= 60 && score <= 69) {
+console.log("D");
+} else {
+console.log("F");
+}
+
+let day = 3;
+switch (day) {
+case 1:
+console.log("Monday");
+break;
+case 2:
+console.log("Tuesday");
+break;
+case 3:
+console.log("Wednesday");
+break;
+case 4:
+console.log("Thursday");
+break;
+case 5:
+console.log("Friday");
+break;
+case 6:
+console.log("Saturday");
+break;
+case 7:
+console.log("Sunday");
+break;
+default:
+console.log("Invalid day");
+}
+
+let fruit = "apple";
+switch (fruit) {
+case "apple":
+console.log("Apple is red");
+break;
+case "banana":
+console.log("Banana is yellow");
+break;
+case "orange":
+console.log("Orange is orange");
+break;
+default:
+console.log("Unknown fruit");
+}
+
+let value = 15;
+let result = value > 10 ? "Big number" : "Small number";
+console.log(result);
+
+let year = 2024;
+let leapYear = (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0) ? " year" : "not a leap year";
+console.log(leapYear);
+
+let balance = 1000;
+let amount = 500;
+if (balance >= amount) {
+console.log("Withdrawal successful!");
+} else {
+console.log("Insufficient funds!");
+}
+
+let light = "red";
+switch (light) {
+case "red":
+console.log("Stop");
+break;
+case "yellow":
+console.log("Get ready");
+break;
+case "green":
+console.log("Go");
+break;
+default:
+console.log("Invalid color");
+}
+    </script>
+</body>
+</html>
